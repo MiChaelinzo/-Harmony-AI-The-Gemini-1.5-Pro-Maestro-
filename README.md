@@ -25,6 +25,12 @@ Improvements:
 - Arpeggiator: Improved arpeggiator with variable tempo and steps, using the generate_notes function.
 - Drums: More flexible drum patterns using lists and a play_drum function to trigger sounds based on the pattern.
 
+Key Enhancements:
+- LFO Modulation: LFOs are added to modulate the frequency of the lead and bass synths, and the cutoff frequency of the pad synth, creating dynamic and evolving timbres.
+- Chord Progressions: Introduced chord_progressions and generate_chords to create chord sequences for different sections.
+- Structured Sections: The play_section function now takes chords, lead scale, and arp scale as arguments, allowing for flexible variations within sections.
+- Song Structure: The song is built by calling play_verse and play_chorus functions, with the potential to add more sections like bridges or intros.
+
 New Features:
 - Song Structure: Implemented play_verse and play_chorus functions to define the structure of the song.
 - Effects: Added delay and reverb effects to the lead synth for a more spacious and atmospheric sound.
